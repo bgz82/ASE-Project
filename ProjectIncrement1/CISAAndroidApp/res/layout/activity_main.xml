@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/img_btns"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/btn_observer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@null"
+        android:contentDescription="@string/observer_desc"
+        android:onClick="observerOnClick"
+        android:src="@drawable/observer" />
+
+    <ImageButton
+        android:id="@+id/btn_analyst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@null"
+        android:contentDescription="@string/analyst_desc"
+        android:onClick="analystOnClick"
+        android:src="@drawable/analyst" />
+
+    <ImageButton
+        android:id="@+id/btn_coordinator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@null"
+        android:contentDescription="@string/coordinator_desc"
+        android:onClick="coordinateOnClick"
+        android:src="@drawable/coordinator" />
+
+</LinearLayout>

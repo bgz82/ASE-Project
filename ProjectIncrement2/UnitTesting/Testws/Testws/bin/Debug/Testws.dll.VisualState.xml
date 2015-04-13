@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1004]C:\Users\Balu\Documents\Visual Studio 2013\Projects\Testws\Testws\bin\Debug\Testws.dll</TopNode>
+  <SelectedNode>[0-1000]Testws.Service</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1004]C:\Users\Balu\Documents\Visual Studio 2013\Projects\Testws\Testws\bin\Debug\Testws.dll" Expanded="true" />
+    <Node UniqueName="[0-1005]Testws" Expanded="true" />
+    <Node UniqueName="[0-1000]Testws.Service" Expanded="true" />
+  </Nodes>
+</VisualState>

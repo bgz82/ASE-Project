@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cisa.androidapp.AnalyzeListMap" >
+
+    <item
+        android:id="@+id/action_map"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_map"
+        android:title="@string/action_settings"/>
+    
+    <item
+        android:id="@+id/action_list"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_list"
+        android:title="@string/action_settings"/>
+    
+</menu>

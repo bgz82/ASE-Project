@@ -1,0 +1,8 @@
+c:\users\balu\documents\visual studio 2013\Projects\Testws\Testws\bin\Debug\Testws.dll
+c:\users\balu\documents\visual studio 2013\Projects\Testws\Testws\bin\Debug\Testws.pdb
+c:\users\balu\documents\visual studio 2013\Projects\Testws\Testws\bin\Debug\nunit.framework.dll
+c:\users\balu\documents\visual studio 2013\Projects\Testws\Testws\bin\Debug\nunit.mocks.dll
+c:\users\balu\documents\visual studio 2013\Projects\Testws\Testws\bin\Debug\nunit.framework.xml
+c:\users\balu\documents\visual studio 2013\Projects\Testws\Testws\obj\Debug\Testws.csprojResolveAssemblyReference.cache
+c:\users\balu\documents\visual studio 2013\Projects\Testws\Testws\obj\Debug\Testws.dll
+c:\users\balu\documents\visual studio 2013\Projects\Testws\Testws\obj\Debug\Testws.pdb
