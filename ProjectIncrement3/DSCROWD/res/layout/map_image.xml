@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/layout_50v"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:contentDescription="@string/analyst_desc"
+            android:scaleType="fitXY" >
+        </ImageView>
+
+        <edu.umkc.dscrowd.views.SelectionPreview
+            android:id="@+id/selectionPreview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <LinearLayout
+        style="@style/layout_50v"
+        android:orientation="vertical" >
+            
+            <TextView 
+                android:id="@id/location"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ed6022"
+                        android:padding="5dp"
+                        android:gravity="center_horizontal"
+                        android:text="@string/mark_text"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:singleLine="true" />
+            <TextView 
+                android:id="@id/description"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:padding="5dp"
+                        android:text="@string/analyst_desc"
+                        android:textAlignment="center"
+                        android:singleLine="true" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/weight_80"
+            android:layout_margin="0dp"
+            android:orientation="horizontal"
+            android:padding="0dp"
+            android:weightSum="100" >
+
+
+            <Button
+                android:id="@+id/info"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="50"
+                android:background="#33B6EA"
+                android:onClick="viewInfo"
+                android:text="@string/info"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/dialogButtonOK"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="50"
+                android:background="#0F8E3F"
+                android:onClick="uploadDetails"
+                android:text="@string/submit_msg"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>

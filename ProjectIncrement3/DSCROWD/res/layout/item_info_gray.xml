@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:background="#F0F0F0"
+    android:id="@+id/list_item" >
+
+    <ImageView
+        android:id="@+id/imageicon"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/analyst_desc"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@+id/imageicon"
+        android:singleLine="true"
+         />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/location"
+        android:layout_below="@+id/location"
+        android:layout_marginTop="7dp"
+        android:singleLine="true"
+        />
+    
+    <TextView
+        android:id="@+id/analyzed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/location"
+        android:layout_below="@+id/description"
+        android:layout_marginTop="7dp"
+        android:singleLine="true"
+        />
+</RelativeLayout>

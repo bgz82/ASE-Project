@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity Titles -->
+    <string name="app_name">DS-Crowd</string>
+    <string name="app_title_observer">DS-Crowd | Observer</string>
+    <string name="app_title_analyst">DS-Crowd | Analyst</string>
+    <string name="app_title_coordinator">DS-Crowd | Coordinator</string>
+    <string name="analyst_desc">Navigates to Analyst Activity</string>
+    <string name="observer_desc">Navigates to Observer Activity</string>
+    <string name="coordinator_desc">Navigates to Coordinator Activity</string>
+    <string name="loadmoredata">Loading more data</string>
+
+    <!-- Observer Activity -->
+    <string name="image_capture">Capture</string>
+    <string name="edittext_placeholder">Please comment on the Image</string>
+    <string name="submit_msg">Done</string>
+    <string name="location_title">Location</string>
+    <string name="lat">Latitude:</string>
+    <string name="lon">Longitude:</string>
+    <string name="enhance_latlon">Enhance Lat-Lan</string>
+    <string name="commentbox_title">Describe Scene</string>
+    <string name="capture">Capture Scene</string>
+    <string name="imageLoaded">Image loaded from Gallery</string>
+    <string name="enhanceLocation">Enhance Location</string>
+    <string name="reset">Reset</string>
+
+    <!-- Analysis Activity -->
+    <string name="building">Building</string>
+    <string name="bridge">Bridge</string>
+    <string name="road">Road</string>
+    <string name="human">Human</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="vegetation">Vegetation</string>
+    <string name="info">Info</string>
+    <string name="mark_btn">Mark Button</string>
+    <string name="radioTitle">Categorize Object</string>
+    <string name="mark_text">Classify Damage</string>
+    <string name="selected_reg_title">Identified Objects/Regions</string>
+    <string name="list_title">Choose a resource to analyze</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_analyze_list_map">CISA | AnalyzeList</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Status Activity -->
+    <string name="thanks">Thank You. . .</string>
+    <string name="statusText">Response Recorded Successfully</string>
+    <string name="analyzeThisMsg">Analyze this Image</string>
+    <string name="again">Again. . .</string>
+    <string name="exit">Exit</string>
+    <string name="title_activity_analyze_status">AnalyzeStatus</string>
+    <string name="menu">MENU</string>
+    <string name="analyzeAnotherMsg">Analyze one more</string>
+    <string name="title_activity_analysis_details">GS-Crowd | Details</string>
+    <string name="title_activity_analyze_list">AnalyzeList</string>
+    <string name="title_activity_map">Coordinator | Map</string>
+
+    <string name="analyze">Analyze</string>
+    
+    <string-array name="events">
+        <item>Earthquake</item>
+        <item>Tornado</item>
+    </string-array>
+
+</resources>
